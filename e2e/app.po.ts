@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class Ellavatec.ComPage {
+export class EllavatecPage {
   navigateTo() {
     return browser.get('/');
   }

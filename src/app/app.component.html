@@ -1,8 +1,36 @@
-<section class="app">
-  <md-toolbar color="primary" class="mat-elevation-z10">
-      EllaVatec
+<section app>
+
+  <md-toolbar class="title-container" color="primary" class="mat-elevation-z10">
+    <span class="title-top">EllaVatec</span>
+
+    <md-toolbar-row>
+      <span class="title-bottom">Helping companies reshape their culture and diversify their workforce</span>
+    </md-toolbar-row>
   </md-toolbar>
-  <p>hello</p>
+
+  <md-tab-group dynamicHeight="true">
+    <md-tab label="Consultancy">
+      <p class="tab-body">
+        EllaVatec is working to help employers discover and correct the pain points of finding and hiring a more diverse workforce
+      </p>
+
+    </md-tab>
+    <md-tab label="About Us">
+      <p class="tab-body">
+        Based out of Ann Arbor, MI the the founder and lead consultant at EllaVatec has over twenty years of expierence 
+        <br/> 
+        in technology. Often finding herself as a the only female developer in a company she is now seeking to solve 
+        <br/>
+        this discrepancy by going directly to the companies who are looking to diversify. 
+      </p>
+    </md-tab>
+    <md-tab label="Contact">
+      <p class="tab-body">
+        <a href="mailto:info@ellavatec.com?subject=EllaVatec%20Inquiry"><button md-raised-button>Contact Us</button></a>
+      </p>
+    </md-tab>
+  </md-tab-group>
+
 </section>
 
 <router-outlet></router-outlet>

@@ -1,10 +1,11 @@
-import { Ellavatec.ComPage } from './app.po';
+import { EllavatecPage } from './app.po';
+const expect = global['chai'].expect;
 
 describe('ellavatec.com App', () => {
-  let page: Ellavatec.ComPage;
+  let page: EllavatecPage;
 
   beforeEach(() => {
-    page = new Ellavatec.ComPage();
+    page = new EllavatecPage();
   });
 
   it('should display message saying app works', () => {
