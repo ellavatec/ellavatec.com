@@ -1,38 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
 
-.app {
-    min-height: 100%;
-}
-
-md-toolbar {
-    z-index: 10;
-}
-
-.title-container {
-    text-shadow: 2px 2px black;
-}
-
-.title-top {
-    font-size: 1.5em;
-}
-
-.title-bottom {
-    font-size: 0.75em;
-}
-
-.tab-body {
-    padding: 1em;
-    margin: 1em;
-}
-
-/* old stuff above here */
-
 body {
     margin: 0;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('./assets/images/code.jpg');
+    background-size: cover;
 }
 
 img {
     width: 100%;
     height: 75%;
+}
+
+.navBar {
+    margin-top: -0.25em;
+}
+
+.primary-text {
+    color: #FB8C00!important;
+}
+
+.accent-text {
+    color: #FDD835!important;
+}
+
+.white-text {
+    color: white!important;
+}
+
+.black-text {
+    color: black!important;
+}
+
+.primary-background {
+    background-color: #FB8C00!important;
+}
+
+.accent-background {
+    background-color: #FDD835!important;
+}
+
+.white-background {
+    background-color: white!important;
+}
+
+.black-background {
+    background-color: black!important;
+}
+
+.rout-out {
+    margin-left: 5em;
+    margin-right: 5em;
 }

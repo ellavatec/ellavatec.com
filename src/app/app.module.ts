@@ -7,6 +7,7 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from 'app/core/core.module';
+import { HomeModule } from 'app/home/home.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -20,7 +21,8 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     MaterialModule,
     BrowserAnimationsModule,
-    CoreModule
+    CoreModule,
+    HomeModule
   ],
   providers: [
     Title
