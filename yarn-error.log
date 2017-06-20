@@ -1,17 +1,17 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js upgrade
+  /Users/erinbergman/.nvm/versions/node/v8.0.0/bin/node /usr/local/bin/yarn install
 
 PATH: 
-  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Users\erine\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\erine\AppData\Roaming\npm;C:\Users\erine\AppData\Local\Yarn\.bin;C:\Program Files\Heroku\bin;C:\Users\erine\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin
+  /Users/erinbergman/.nvm/versions/node/v8.0.0/bin:/Users/erinbergman/Desktop/Prog/Utilities/Tools/gradle-3.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 Yarn version: 
-  0.23.2
+  0.24.6
 
 Node version: 
-  7.9.0
+  8.0.0
 
 Platform: 
-  win32 x64
+  darwin x64
 
 npm manifest: 
   {
@@ -50,6 +50,7 @@ npm manifest:
       "@angular/compiler-cli": "^4.0.0",
       "@types/chai": "^3.5.2",
       "@types/chai-as-promised": "^0.0.30",
+      "@types/hammerjs": "^2.0.34",
       "@types/mocha": "^2.2.41",
       "@types/node": "~6.0.60",
       "chai": "^3.5.0",
@@ -165,9 +166,9 @@ Lockfile:
     version "4.1.1"
     resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.1.1.tgz#1230645c842f8a6a050403d4947f982e7ef70c60"
   
-  "@angular/flex-layout@^2.0.0-beta.8":
-    version "2.0.0-beta.8"
-    resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-2.0.0-beta.8.tgz#b9cf57865a93ca158fe56d850952423f248d103b"
+  "@angular/flex-layout@2.0.0-beta.4":
+    version "2.0.0-beta.4"
+    resolved "https://registry.yarnpkg.com/@angular/flex-layout/-/flex-layout-2.0.0-beta.4.tgz#b8cbc15ed17a35617738bb9cd76d8d80ba11638f"
   
   "@angular/forms@^4.0.0":
     version "4.1.1"
@@ -221,6 +222,10 @@ Lockfile:
   "@types/chai@*", "@types/chai@^3.5.2":
     version "3.5.2"
     resolved "https://registry.yarnpkg.com/@types/chai/-/chai-3.5.2.tgz#c11cd2817d3a401b7ba0f5a420f35c56139b1c1e"
+  
+  "@types/hammerjs@^2.0.34":
+    version "2.0.34"
+    resolved "https://registry.yarnpkg.com/@types/hammerjs/-/hammerjs-2.0.34.tgz#9cbac4f41cb039436141785e1be50b3ab10a04a9"
   
   "@types/mocha@^2.2.41":
     version "2.2.41"
@@ -5425,4 +5430,8 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.10.tgz#6d1b696492c029cdbe808e59e87bbd9491b98aa8"
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'C:\development\ellavatec.com\node_modules\@angular\flex-layout\media-query\breakpoints\data\break-points.d.ts'
+  Error: https://registry.yarnpkg.com/@angular/animations/-/animations-4.1.1.tgz: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/0.24.6/libexec/lib/yarn-cli.js:108518:19)
+      at ontimeout (timers.js:488:11)
+      at tryOnTimeout (timers.js:323:5)
+      at Timer.listOnTimeout (timers.js:283:5)

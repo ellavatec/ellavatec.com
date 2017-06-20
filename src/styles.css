@@ -1,11 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 
-body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
 .app {
     min-height: 100%;
 }
@@ -23,10 +17,22 @@ md-toolbar {
 }
 
 .title-bottom {
-   font-size: 0.75em;
+    font-size: 0.75em;
 }
 
 .tab-body {
     padding: 1em;
     margin: 1em;
+}
+
+/* old stuff above here */
+
+body {
+    margin: 0;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+img {
+    width: 100%;
+    height: 75%;
 }
