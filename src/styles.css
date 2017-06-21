@@ -52,3 +52,16 @@ img {
     margin-left: 5em;
     margin-right: 5em;
 }
+
+.content {
+    display: block;
+    width: 70%;
+    text-align: center;
+}
+
+.sidebar {
+    margin-top: -3.5em;
+    display: block;
+    width: 25%;
+    float: right;
+}
