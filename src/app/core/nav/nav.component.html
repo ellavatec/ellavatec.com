@@ -2,14 +2,23 @@
 
 <md-toolbar class="navBar">
     <nav md-tab-nav-bar>
-        <a md-tab-link routerLink="/">
-            Consultancy
+        <a md-tab-link
+            routerLink=""
+            routerLinkActive #rla="routerLinkActive"
+            active="rla.isActive ? 'router-link-active' : ''">
+                Consultancy
         </a>
-        <a md-tab-link routerLink="about-us">
-            About Us
+        <a md-tab-link
+            routerLink="about-us"
+            routerLinkActive #rla="routerLinkActive"
+            active="rla.isActive ? 'router-link-active' : ''">
+                About Us
         </a>
-        <a md-tab-link routerLink="contact">
-            Contact
+        <a md-tab-link
+            routerLink="contact"
+            routerLinkActive #rla="routerLinkActive"
+            active="rla.isActive ? 'router-link-active' : ''">
+                Contact
         </a>
     </nav>
 </md-toolbar>

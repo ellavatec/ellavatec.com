@@ -7,8 +7,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  public links: any[];
 
-  constructor(private router: Router) { }
+  constructor(private router: Router) {
+    this.links = [
+      { link: 'consultancy', label: 'Consultancy' },
+      { link: 'about-us', label: 'About Us' },
+      { link: 'contact', label: 'Contact' }
+    ];
+  }
 
   ngOnInit() {
   }
