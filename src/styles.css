@@ -64,4 +64,47 @@ img {
     display: block;
     width: 25%;
     float: right;
+    text-align: center;
+}
+
+.navBarContent {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navBarButton {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.home-card {
+    min-height: 40em;
+}
+
+.ronda-about {
+    display: block;
+    width: 70%;
+    float: left;
+    padding-top: 7em;
+}
+
+.ronda-photo {
+    display: block;
+    width: 25%;
+    float: right;
+    max-height: 10em;
+}
+
+.erin-about {
+    display: block;
+    width: 70%;
+    float: right;
+    padding-top: 10em;
+}
+
+.erin-photo {
+    display: block;
+    width: 25%;
+    float: left;
+    padding-top: 10em;
 }
