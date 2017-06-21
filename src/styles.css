@@ -3,8 +3,6 @@
 body {
     margin: 0;
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url('./assets/images/code.jpg');
-    background-size: cover;
 }
 
 img {
@@ -107,4 +105,8 @@ img {
     width: 25%;
     float: left;
     padding-top: 10em;
+}
+
+.logo {
+    height: 7em;
 }
